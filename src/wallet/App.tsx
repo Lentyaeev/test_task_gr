@@ -4,7 +4,7 @@ import { TransactionDetailScreen } from './screens/TransactionDetailScreen'
 
 export function App() {
   const location = useLocation()
-  const isDetail = /^\/transactions\/[^/]+$/.test(location.pathname)
+  const isDetail = /^\/transactions\/[^/]+$/.test(location.pathname);
 
   return (
     <div className="appShell">
